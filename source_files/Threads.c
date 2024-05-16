@@ -75,7 +75,7 @@ void Thread_Convert_Temp(void *arg){
 			//Thermistor resistance calculation from calculated Voltage 
 			R_Temp = R0 * ((VREF_TP/V_Temp)-1);
 			
-			//take the natural log of the calculated thermisto resistance
+			//take the natural log of the calculated thermistor resistance
 			neg_log_R_Temp = -log(R0/R_Temp);
 			
 			//temperature in kelvin using the Beta value (ß) equation. 

@@ -34,7 +34,7 @@ int main (void) {
 	UART0_HWconfig(9600);
 	UART0_IRQconfig();
 	
-	PIT_start(0);
+	//PIT_start(0);
 	
 	/*
 	configure RTOS
